@@ -1,6 +1,6 @@
 {
   "name": "jscraftcamp-my-name-is",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "repository": "git@github.com:entwicklerstube/jscraftcamp-my-name-is.git",
   "author": "michaelzoidl <github@michaelzoidl.com>",
@@ -9,15 +9,17 @@
     "craft-camp": "index.js"
   },
   "scripts": {
-    "build": "mkdir ./dist",
+    "test": "echo 'run tests'",
+    "build": "mkdir -p ./dist && touch ./dist/index.js",
     "changes": "update-changelog --dry-run .",
     "prerelease": "update-changelog .",
     "release": "release .",
-    "postrelease": "npm run -s build && github-release ./ ./dist"
+    "postrelease": "npm run -s build && release-github ./ ./dist"
   },
   "dependencies": {
     "codastic-release": "^1.0.0",
     "inquirer": "^3.2.0",
-    "listr": "^0.12.0"
+    "listr": "^0.12.0",
+    "release": "git+ssh://git@github.com:codastic/release.git"
   }
 }
