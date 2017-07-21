@@ -1,4 +1,8 @@
 
+### v1.0.3 / 2017-07-21 14:56:18
+
+- Test 2 (i: Chris Ranz, r: Christian Ranz, c: 78d7206)
+
 ### v1.0.2 / 2017-07-21 14:43:45
 
 - Add test change for release script (i: Chris Ranz, r: Christian Ranz, c: 3690921)
