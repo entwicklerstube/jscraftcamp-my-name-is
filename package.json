@@ -8,8 +8,18 @@
   "bin": {
     "craft-camp": "index.js"
   },
+  "scripts": {
+    "test": "echo 'run tests'",
+    "build": "mkdir -p ./dist && touch ./dist/index.js",
+    "changes": "update-changelog --dry-run .",
+    "prerelease": "npm run -s test && update-changelog .",
+    "release": "release .",
+    "postrelease": "npm run -s build && release-github ./ ./dist"
+  },
   "dependencies": {
+    "codastic-release": "^1.0.0",
     "inquirer": "^3.2.0",
-    "listr": "^0.12.0"
+    "listr": "^0.12.0",
+    "release": "git+ssh://git@github.com:codastic/release.git#dev/fix-readme"
   }
 }
