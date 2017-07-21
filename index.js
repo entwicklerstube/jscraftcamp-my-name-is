@@ -30,6 +30,7 @@ const tasks = [{
 }]
 
 // Test change for release
+// Test change for release
 
 const listrObject = new Listr(tasks)
 
