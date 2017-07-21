@@ -1,4 +1,8 @@
 
+### v1.0.1 / 2017-07-21 14:41:08
+
+- Test release script (i: Chris Ranz, r: Christian Ranz, c: fde0cce)
+
 ### v1.0.0 / 2017-07-21 14:28:50
 
 - Step 2 (i: michaelzoidl, r: Christian Ranz, c: 7164151)
