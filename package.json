@@ -9,6 +9,7 @@
     "craft-camp": "index.js"
   },
   "dependencies": {
-    "inquirer": "^3.2.0"
+    "inquirer": "^3.2.0",
+    "listr": "^0.12.0"
   }
 }
