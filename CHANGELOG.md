@@ -1,4 +1,8 @@
 
+### v1.1.0 / 2017-07-21 15:15:04
+
+- Add changes for test 4 (i: Chris Ranz, r: Christian Ranz, c: 5c0e45f)
+
 ### v1.0.4 / 2017-07-21 15:03:41
 
 - Add test change for release (i: Chris Ranz, r: Christian Ranz, c: 08db042)
