@@ -12,7 +12,7 @@
     "test": "echo 'run tests'",
     "build": "mkdir -p ./dist && touch ./dist/index.js",
     "changes": "update-changelog --dry-run .",
-    "prerelease": "update-changelog .",
+    "prerelease": "npm run -s test && update-changelog .",
     "release": "release .",
     "postrelease": "npm run -s build && release-github ./ ./dist"
   },
