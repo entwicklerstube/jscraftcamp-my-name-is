@@ -20,6 +20,6 @@
     "codastic-release": "^1.0.0",
     "inquirer": "^3.2.0",
     "listr": "^0.12.0",
-    "release": "git+ssh://git@github.com:codastic/release.git"
+    "release": "git+ssh://git@github.com:codastic/release.git#dev/fix-readme"
   }
 }
