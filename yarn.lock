@@ -507,7 +507,7 @@ readline@^1.3.0:
 
 "release@git+ssh://git@github.com:codastic/release.git#dev/fix-readme":
   version "1.0.0"
-  resolved "git+ssh://git@github.com:codastic/release.git#94acf8f1d8c73a3f8caec0876332eb5e5be796c5"
+  resolved "git+ssh://git@github.com:codastic/release.git#241833a16fa2927b5c5c8195e6657ab9e48d450a"
   dependencies:
     github "^9.2.0"
     minimist "^1.2.0"
