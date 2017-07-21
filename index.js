@@ -23,11 +23,13 @@ const tasks = [{
       task.output = 'Calculating'
       resolve()
     }, 500)
-    
+
     // setTimeout(() => {
     // }, 2000)
   })
 }]
+
+// Test change for release
 
 const listrObject = new Listr(tasks)
 
